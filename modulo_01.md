@@ -1,4 +1,4 @@
-# Curso ReactJS Ninja - Módulo #01
+# Curso de Programação em Linguagem C - Módulo #01
 
 > Neste vídeo falaremos sobre o que são tipos de dados (Data Types) e descreveremos sucintamente os tipos de dados básicos mais comuns em C, como int, long, short, float, double e char.
 
