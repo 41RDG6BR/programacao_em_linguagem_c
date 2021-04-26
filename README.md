@@ -5,6 +5,7 @@
 ## Ementas
 
 - [Módulo #01](modulo_01.md)
+- [Módulo #02](modulo_02.md)
 
 
 ## Problema com as versões das dependências?
