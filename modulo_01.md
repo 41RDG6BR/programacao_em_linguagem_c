@@ -49,6 +49,10 @@ typedef enum {false=0, true=1}logico;
 
 ## Tipo caractere (char)
 
+  <br><br>
+ ![Preview-Screens](https://github.com/41RDG6BR/programacao_em_linguagem_c/blob/main/ASCII.png)
+
+
 Já os tipos literais são tratados em C como valores numéricos, e não como literais. Cada caractere possui um correspondente numérico, obedecendo geralmente á tabela ASCII do caracteres.
 Em C temos o tipo char para representar um caractere literal. Seu tamanho é de 1 byte (8 bits), possuindo então valores entre 0 e 255.
 
