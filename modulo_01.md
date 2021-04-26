@@ -34,3 +34,15 @@ Veja abaixo os tipos de ponto-flutuante disponíveis em C:
 |    float    |  4 bytes |   3.4E-38 a 3.4E+38  |  6 casas decimais |
 |    double   |  8 bytes |  1.7E-308 a 1.7E+308 | 15 casas decimais |
 | long double | 12 bytes | 3.4-4932 a 1.1E+4932 | 19 casas decimais |
+
+## Tipo lógico
+
+Não há um tipo lógico na limguagem C original, porém apartir do padrão ISO C99 é possível usar o tipo (mais precisamente, macro) bool.
+
+No geral, em , o valor inteiro 1 pode ser considerado como valor lógico true(verdadeiro) e o inteiro 0 como valor lógico false(falso).
+Na verdade, qualquer valor diferente de 0 será tratado como verdadeiro.
+
+Para usarmos o tipo lógico book precisamos incluir a bibliotaca stdbool.h no código do programa.
+Caso usemos uma versão mais antiga do C, podemos "criar" um tipo lógico com o seguinte código:
+
+typedef enum {false=0, true=1}logico;
