@@ -46,3 +46,10 @@ Para usarmos o tipo lógico book precisamos incluir a bibliotaca stdbool.h no c�
 Caso usemos uma versão mais antiga do C, podemos "criar" um tipo lógico com o seguinte código:
 
 typedef enum {false=0, true=1}logico;
+
+## Tipo caractere (char)
+
+Já os tipos literais são tratados em C como valores numéricos, e não como literais. Cada caractere possui um correspondente numérico, obedecendo geralmente á tabela ASCII do caracteres.
+Em C temos o tipo char para representar um caractere literal. Seu tamanho é de 1 byte (8 bits), possuindo então valores entre 0 e 255.
+
+Caso precisemos armazenar uma cadeiade caracteres(string), usamos arrays do tipo char. Um caractere nulo, representado por \0, sempre indicará o final da cadeia - e ele conta no tamanho total da cadeia.
